@@ -1,0 +1,17 @@
+﻿  main.cpp
+D:\Users\Francisco\Documents\Programming\OpenGL-Learn\Opengl-GLEW-GLFW\main.cpp(44,19): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+D:\Users\Francisco\Documents\Programming\OpenGL-Learn\Opengl-GLEW-GLFW\main.cpp(44,13): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+.\lib\freeglut.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+.\lib\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+.\lib\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Users\Francisco\Documents\Programming\OpenGL-Learn\Opengl-GLEW-GLFW\Debug\Opengl-GLEW-GLFW.exe : fatal error LNK1120: 10 unresolved externals
