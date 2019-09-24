@@ -1,0 +1,4 @@
+GLEW, GLFW, freeGLUT
+
+cmake -G "MinGW Makefiles" -S . -B . -DCMAKE_INSTALL_PREFIX=C:\MinGW\mingw32
+mingw32-make install
